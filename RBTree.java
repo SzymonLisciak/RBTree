@@ -1,7 +1,7 @@
 
         package com.company;
 public class RBTree {
-    private Node root;
+    public Node root;
     public void insert(int key, int value) {
         Node newNode = new Node(key, value);
         if (root == null) {
